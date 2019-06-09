@@ -72,6 +72,7 @@ const Main = () => {
           key={o.id}
           height={100}
           offset={[-100, 100]}
+          throttle={1000}
           placeholder={<Loading />}
         >
           <Card {...o} />
